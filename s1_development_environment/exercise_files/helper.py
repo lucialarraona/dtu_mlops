@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from torch import nn, optim
 from torch.autograd import Variable
-
+import seaborn as sns
 
 def test_network(net, trainloader):
 
